@@ -1,0 +1,28 @@
+.site {
+    max-width: var(--layout-main-width);
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.site-main{
+    opacity: 0;
+    transform: translateY(-1em);
+    transition: opacity 0.4s ease-in, transform 0.4s ease-in-out;
+    transition-delay: 1s;
+}
+
+body.loaded .site-main{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media(min-width: 600px) {
+    .site-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .site-header nav {
+        margin-left: auto;
+    }
+}
