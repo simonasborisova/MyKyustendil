@@ -17,7 +17,7 @@ title: My town Kyustendil
 email: simona@example.com
 description: I am lazy!
 destination: docs
-baseurl: 
+baseurl: /MyKyustendil/
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: moni
 github_username:  jekyll
