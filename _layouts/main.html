@@ -6,36 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> {{site.title}} </title>
-    <link rel="stylesheet" href="/css/site.css">
-    <!-- <link rel="stylesheet" href="{{site.baseurl}}/fontawesome/css/all.min.css"> -->
-    <!-- <link rel="stylesheet" href="{{site.baseurl}}/css/site.css"> -->
-<script src="{{site.baseurl}}/scripts/site.js"></script>
+    <link rel="stylesheet" href="{{site.baseurl}}/fontawesome/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/site.css">
+    <script src="{{site.baseurl}}/scripts/site.js"></script>
 </head>
 
-<body class="">
-<!-- {% if page.title %}page-{{ page.title}}{% endif %}
-{% if post.title %}post{% endif %}" -->
+<body class="
+    {% if page.title %}page-{{ page.title | slugify}}{% endif %}
+    {% if post.title %}post{% endif %}
+    {% if page.home %}home {% endif %}">
 
 
 
     <div class="site">
         <header class="site-header">
-
-            {% if page.home == 'true' %}
-
+            {% if page.home == true %}
             <h1 class="site-title">
-                <a href="/"> {{site.title}} </a>
-                <!-- /<a href="{{site.baseurl}}/"> {{site.title}}</a>/ -->
+                <a href="{{site.baseurl}}/"> {{site.title}}</a>
             </h1>
             {% else%}
             <p class="site-title">
-                <a href="/"> {{site.title}} </a>
-                <!-- /<a href="{{site.baseurl}}{{page.url}}"> {{site.title}}</a>/ -->
+                <a href="{{site.baseurl}}/"> {{site.title}}</a>
             </p>
             {% endif %}
 
-           {% include navigation.html location = "header"%}
-           
+            {% include navigation.html location = "header"%}
+
         </header>
         <main class="site-main">
 

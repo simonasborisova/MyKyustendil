@@ -1,7 +1,5 @@
-.site-main > h1 {
-transition: padding 1s ease-in-out;
-}
-
-.site-main > h1:hover{
-    padding-left: 20em;
+.page-animations .site-main h1,
+.page-animations .site-header, 
+.page-animations .site-footer{
+    display: none;
 }
