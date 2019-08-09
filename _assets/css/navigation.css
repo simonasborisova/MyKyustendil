@@ -22,6 +22,7 @@
     background: rgb(194, 115, 115);
 }
 
+.site-nav li.selected > a,
 .site-nav a:hover {
     background: var(--color-link-default);
     color: var(--color-body-bgrd);
@@ -32,6 +33,7 @@
     margin-right: 0.5em;
 }
 
+.site-nav li.selected > a i.fas:before,
 .site-nav a:hover i.fas:before {
     color: #EEE;
 }
