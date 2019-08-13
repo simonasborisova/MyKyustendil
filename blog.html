@@ -6,20 +6,28 @@ icon: fa-rss
 permalink: /blog/
 
 ---
+<section class="magazin">
+  <div class="content">
+    {% include article.html class="huge" %}
+    {% include article.html class="featured" %}
+    {% include article.html  %}
+    {% include article.html  %}
+    {% include article.html class="featured" %}
+    {% include article.html  %}
+    {% include article.html  %}
+    {% include article.html  %}
 
+  </div>
+
+</section>
 <section>
-        <header>
-          <h2>Latest Posts</h2>
-        </header>
-      
-        <div class="content">
-          <ul>
-            {% for post in site.posts %}
-            <li>
-              <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </section>
-      
+  <div class="content">
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

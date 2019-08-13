@@ -1,21 +1,25 @@
+/* .page-gallery {
+    background: url('../images/gora.jpg');
+} */
+
 .gallery {
     padding: 0;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .gallery li {
     flex: 0 0 100%;
+    margin-bottom: 3%;
     list-style: none outside;
     background: white;
     display: flex;
     /* overflow: hidden; */
     position: relative;
-    /* box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5); */
-    box-shadow: 0 0 1.5em 0.5em rgba(0, 0, 0, 1);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 1.5em 0.2em rgba(0, 0, 0, 1); */
     animation: sladeIn 0.3s ease-in;
     animation-fill-mode: both;
 }
@@ -98,7 +102,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /* background: red; ???????????????probvai*/
+    background: white; 
     box-shadow: 0 0 1.5em 0.5em rgba(0, 0, 0, 1);
     opacity: 0;
     transition: opacity 0.3s ease-in;
@@ -110,7 +114,7 @@
 
 .gallery a {
     width: 100%;
-    margin-bottom: 2.5%;
+    /* margin-bottom: 2.5%; */
     display: flex;
     align-items: center;
     border: 0.5em solid #222;
@@ -143,7 +147,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    box-shadow: 0 0 0.2 0 rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.5) inset;
 }
 
 .gallery a:hover span:before {
