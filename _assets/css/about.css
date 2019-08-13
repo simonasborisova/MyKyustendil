@@ -2,24 +2,35 @@ div.fests {
     display: block;
     justify-content: space-between;
     max-width: 60em;
-    margin: 2em 0;
+    padding: 2em;
 }
 
 li.text {
     list-style: none outside;
     display: block;
     width: 50%;
-    /* flex: 0 0 45%; */
-    padding-right: 2em;
+    padding: 1em 1em 1em 2em;
+    text-align:center;
 }
+
 
 .spring-girl,
 .cherry,
 .fruitiness,
 .panagiq {
     display: flex;
+    margin: 2em;
+    background: YellowGreen;
+    border-radius: 2%;
 }
 
+
+h3,h4 {
+    margin: 0.3em 0.2em 0.5em 0.5em;
+}
+h3.fruitiness{
+    margin: 0.5em 0;
+}
 li {
     list-style: none outside;
 }
@@ -27,4 +38,19 @@ li {
 img {
     width: 50%;
     height: 40%;
+    border-radius: 3%;
+}
+
+
+.img-spring-girl{
+    margin: 4.5em 1em 4.5em 0;
+}
+.img-cherry{
+    margin: 6.5em 1em 6.5em 0;
+}
+.img-fruitiness{
+    margin: 11.5em 1em 11.5em 0;
+}
+.img-panagiq{
+    margin: 6.5em 1em 6.5em 0;
 }
