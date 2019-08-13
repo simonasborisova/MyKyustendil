@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Rubik:400,400i&display=swap&subset=cyrillic,latin-ext');
 
 *,
 *:before,
@@ -10,7 +10,8 @@
 
 html {
     box-sizing: border-box;
-    font: var(--font-size-body, 14px)/1.5 "Fira Sans", Georgia, serif;
+    font: var(--font-size-body, 14px)/1.5 "Rubik", "Open Sans", sans-serif;
+    
 }
 
 @media(min-width: 600px) {

@@ -1,0 +1,30 @@
+div.fests {
+    display: block;
+    justify-content: space-between;
+    max-width: 60em;
+    margin: 2em 0;
+}
+
+li.text {
+    list-style: none outside;
+    display: block;
+    width: 50%;
+    /* flex: 0 0 45%; */
+    padding-right: 2em;
+}
+
+.spring-girl,
+.cherry,
+.fruitiness,
+.panagiq {
+    display: flex;
+}
+
+li {
+    list-style: none outside;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+}

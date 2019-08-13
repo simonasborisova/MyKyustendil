@@ -1,23 +1,29 @@
 ---
 layout: main
-title:  "Welcome to Kyustendil!"
+title:  "Пауталия"
 date:   2019-08-03 19:11:50 +0300
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+   <p>
+          По времето на император Марк Улпий Траян (98 – 117) през 106 г. Пауталия получава градски
+          права и добавя към името си представката „Улпия“. До 270 г. Пауталия влиза в състава на
+          провинция Тракия, а след административните реформи на
+          император Аврелиан (270 – 275) – в провинция Вътрешна Дакия, и е третият по големина град
+          след Сердика и Наисус (дн.Ниш).</p>
+        <p>Областта приспадаща към антична Пауталия е известна по името на местното тракийско
+          племе като Дентелетика. Покрай лечебните си минерални извори в Пауталия е изграден здравен
+          център (Пауталийски асклепион) посветен на бог Асклепий. Останки от него се намират в центъра на
+          Кюстендил. Разполагал е със зали за лечение и отдих, басейни с топла минерална вода, места
+          за гимнастика. На пауталийските монети символично е изобразяван топъл минерален извор с
+          покровителите на целебните извори Асклепий, Хигия и Телесфор, както и трите нимфи и други
+          речни божества. Край Улпия Пауталия са се пресичали римските пътища от Наисус през Сердика
+          за Тесалоника по поречието на Струма с този от Стоби (Скопие) през Германея (Сапарева баня)
+          за Византион и Мала Азия. Освен земеделие и скотовъдство в района на Дентелетика интензивно
+          се е развивал и рудодобива. </p>
+        <p>Античната крепост Хисарлъка, която била основно преустроена по време на византийския
+          император Юстиниан I (527 – 565), се използвала до 15 век. След 553 г. името му Пауталия
+          вече не се
+          среща.</p>
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
