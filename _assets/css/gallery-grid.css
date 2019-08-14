@@ -36,6 +36,8 @@
 .gallery-grid li.portrait {
     grid-column: span 1 ;
     grid-row: span 2;
+    align-items: center;
+    
 }
 
 .gallery-grid li.portrait a {
