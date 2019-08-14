@@ -943,3 +943,15 @@ input[type="submit"] {
 
 .form p:focus-within:before {
   color: var(--color-link-default); }
+
+@media (max-width: 960px) {
+  .spring-girl, .cherry, .fruitiness, .panagiq {
+    display: block; } }
+
+@media (max-width: 650px) {
+  .site-nav > ul {
+    display: inline-block; }
+  body > div > main > section > div > ul {
+    display: block; }
+  .spring-girl, .cherry, .fruitiness, .panagiq {
+    display: block; } }
