@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300i|Open+Sans:400i|Rubik:300i,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400i,500i|Open+Sans:400i,600i|Roboto:400i,500i&display=swap');
 
 *,
 *:before,
@@ -10,7 +10,8 @@
 
 html {
     box-sizing: border-box;
-    font: var(--font-size-body, 14px)/1.5 'Rubik', 'Open Sans','Open Sans Condensed', cursive;
+    font: var(--font-size-body, 14px)/1.5 'Montserrat',
+     'Open Sans','Roboto', sans-serif;
 }
 
 @media(min-width: 600px) {
