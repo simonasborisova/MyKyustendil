@@ -30,12 +30,15 @@ li.text {
 h3.fruitiness{
     margin: 0.5em 0;
 }
-
+/* 
 li {
     list-style: none outside;
-}
+} */
 
-img {
+.spring-girl img,
+.cherry img,
+.fruitiness img,
+.panagiq img {
     width: 50%;
     height: 40%;
     border-radius: 3%;
@@ -53,4 +56,7 @@ img {
 }
 .img-panagiq{
     margin: 6.5em 1em 6.5em 0;
+}
+h1{
+    text-align: center;
 }

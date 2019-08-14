@@ -10,7 +10,7 @@
 
 html {
     box-sizing: border-box;
-    font: var(--font-size-body, 14px)/1.5 'Rubik', 'Open Sans','Open Sans Condensed', sans-serif;
+    font: var(--font-size-body, 14px)/1.5 'Rubik', 'Open Sans','Open Sans Condensed', cursive;
 }
 
 @media(min-width: 600px) {

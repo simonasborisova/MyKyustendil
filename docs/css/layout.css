@@ -9,12 +9,10 @@
 @media(min-width: 1024px) {
     .site {
         display: grid;
-        /* grid-template-columns: 2fr 2fr; */
-        /* grid-column-gap: 4em; */
         grid-template-areas:
             "header header"
             "main main"
-            "footer footer"; 
+            "footer footer";
     }
 
     .site-header {
@@ -24,11 +22,6 @@
     .site-main {
         grid-area: main;
     }
-
-
-    /* .site-sidebar {
-        grid-area: sidebar;
-    } */
 
     .site-footer {
         grid-area: footer;
