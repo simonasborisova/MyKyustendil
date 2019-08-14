@@ -1,0 +1,41 @@
+.big-img {
+    display: block;
+    margin: 3em 1em 3em 0em;
+    padding: 4em 2em;
+    background: linear-gradient(#d5ecc7, transparent),
+        url(/images/stenata.jpg) center;
+    background-size: cover;
+    border-radius: 2%;
+}
+
+h1,
+h2,
+h3 {
+    text-align: left;
+}
+
+.history-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 2em 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+div>ul>li {
+    width: 30%;
+    padding: 2em;
+    background: #CFDF98;
+    border-radius: 3%;
+}
+
+div>ul>li>h4 {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
