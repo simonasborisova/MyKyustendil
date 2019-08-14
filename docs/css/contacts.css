@@ -1,0 +1,79 @@
+.location h4 {
+    /* font-family: 'Open Sans', sans-serif; */
+    text-align: center;
+    align-items: center;
+    color: var(--color-link-default);
+    border-bottom: 0.2px solid var(--color-link-default);
+    font-size: 1.5em;
+}
+
+.location p {
+    align-items: center;
+}
+
+.map {
+    overflow: hidden;
+    position: inherit;
+    height: 70%;
+}
+
+.map iframe {
+    height: auto;
+    width: 100%;
+    padding-bottom: 1em;
+}
+.form h4{
+    text-align: center;
+}
+
+textarea,
+input{
+    background: #E6E6E6;
+    border:none;
+    outline: none;
+    font: 16px/1.5 Montserrat, sans-serif;
+    width: 50%;
+    border-radius: 22px;
+    padding: 0.5rem 0.5rem 0.5rem 3rem;
+    font-weight: bold;
+}
+textarea{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    }
+.form p {
+    position: relative;
+}
+
+.form p:before{
+    display: block;
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    top: 7px;
+    left: 11px;
+    z-index: 200;
+    font-weight: 900;
+    color: grey;
+}
+.last-name:before,
+.first-name:before{
+    content:'\f007';
+}
+.number:before{
+    content:'\f02d';
+}
+.email:before{
+    content:'\f0e0';
+}
+input[type="submit"]{
+padding: 0.6rem 0;
+background: var(--color-link-default);
+color: var(--color-body-bgrd);
+margin-top: 1.2rem;
+cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: var(--color-border-default);
+}
+.form p:focus-within:before{
+    color: var(--color-link-default);
+}

@@ -1,0 +1,57 @@
+div.fests {
+    display: block;
+    justify-content: space-between;
+    max-width: 60em;
+    padding: 2em;
+}
+
+li.text {
+    list-style: none outside;
+    display: block;
+    width: 50%;
+    padding: 1em 1em 1em 2em;
+    text-align:center;
+}
+
+
+.spring-girl,
+.cherry,
+.fruitiness,
+.panagiq {
+    display: flex;
+    margin: 2em;
+    background: #CFDF98;
+    border-radius: 2%;
+}
+.fests h3,.fests h4{
+    text-align: center;
+}
+
+h3.fruitiness{
+    margin: 0.5em 0;
+}
+
+.spring-girl img,
+.cherry img,
+.fruitiness img,
+.panagiq img {
+    width: 50%;
+    height: 40%;
+    border-radius: 3%;
+}
+
+.img-spring-girl{
+    margin: 4.5em 1em 4.5em 0;
+}
+.img-cherry{
+    margin: 6.5em 1em 6.5em 0;
+}
+.img-fruitiness{
+    margin: 11.5em 1em 11.5em 0;
+}
+.img-panagiq{
+    margin: 6.5em 1em 6.5em 0;
+}
+h1{
+    text-align: center;
+}
