@@ -1,15 +1,17 @@
 .names {
     color: #24513D;
+
+    h2,
+    h3,
+    h4 {
+        text-align: center;
+    }
 }
 
-.names h2,
-.names h3,
-.names h4 {
-    text-align: center;
-}
-li{
+li {
     list-style: none outside;
 }
+
 .introduction {
     background: #24513D;
     color: white;
@@ -17,46 +19,45 @@ li{
     margin: 2em;
     padding: 3em;
     text-align: center;
+
+    & h4 {
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    & p {
+        padding: 0 1em;
+    }
 }
 
-.introduction h4 {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.introduction p {
-    padding: 0 1em;
-}
-
-.first-name h5,
+.first-name-town h5,
 .first-history-name h5,
 .second-name h5,
 .tsar-kaloqn h5,
 .rilski-manastir h5,
 .third-name h5,
-.last-name h5 {
+.last-name-town h5 {
     text-decoration: underline;
     padding-bottom: 0.5em;
 }
 
-
-.first-name,
+.first-name-town,
 .second-name,
 .rilski-manastir,
-.last-name {
+.last-name-town {
     width: 90%;
     padding-bottom: 1em;
 }
 
-.first-name h5,
+.first-name-town h5,
 .second-name h5,
 .rilski-manastir h5,
-.last-name h5,
-.first-name p,
+.last-name-town h5,
+.first-name-town p,
 .second-name p,
 .rilski-manastir p,
-.last-name p {
+.last-name-town p {
     text-align: left;
     color: #24513D;
     margin-right: 3em;
@@ -82,8 +83,3 @@ li{
 ul>li {
     display: block;
 }
-
-/* img{
-    width: 50%;
-    height: auto;
-} */

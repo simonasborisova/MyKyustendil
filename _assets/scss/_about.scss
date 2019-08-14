@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 div.fests {
     display: block;
     justify-content: space-between;
@@ -10,9 +14,8 @@ li.text {
     display: block;
     width: 50%;
     padding: 1em 1em 1em 2em;
-    text-align:center;
+    text-align: center;
 }
-
 
 .spring-girl,
 .cherry,
@@ -23,11 +26,15 @@ li.text {
     background: #CFDF98;
     border-radius: 2%;
 }
-.fests h3,.fests h4{
-    text-align: center;
-}
 
-h3.fruitiness{
+.fests {
+    h3, h4 {
+      text-align: center;
+    }
+  }
+  
+
+h3.fruitiness {
     margin: 0.5em 0;
 }
 
@@ -40,18 +47,19 @@ h3.fruitiness{
     border-radius: 3%;
 }
 
-.img-spring-girl{
+.img-spring-girl {
     margin: 4.5em 1em 4.5em 0;
 }
-.img-cherry{
+
+.img-cherry {
     margin: 6.5em 1em 6.5em 0;
 }
-.img-fruitiness{
+
+.img-fruitiness {
     margin: 11.5em 1em 11.5em 0;
 }
-.img-panagiq{
+
+.img-panagiq {
     margin: 6.5em 1em 6.5em 0;
 }
-h1{
-    text-align: center;
-}
+

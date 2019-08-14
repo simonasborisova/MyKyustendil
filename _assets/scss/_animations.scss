@@ -1,23 +1,24 @@
-.page-animations .site-main h1,
-.page-animations .site-header,
-.page-animations .site-footer {
-    display: none;
-}
-
 .page-animations {
+
+    .site-main h1,
+    .site-header,
+    .site-footer {
+        display: none;
+    }
+
     min-height: 100vh;
 }
 
 /* .box {
-    width: 5em;
-    height: 5em;
-    background: #F00;
-    position: absolute;
-    animation: around 4s linear;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
-} */
+      width: 5em;
+      height: 5em;
+      background: #F00;
+      position: absolute;
+      animation: around 4s linear;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 2;
+      animation-direction: alternate;
+  } */
 
 .box {
     width: 15em;
@@ -25,12 +26,11 @@
     border: 2px solid #000;
     margin: 2em auto;
     background: #EEE;
-}
 
-.box:hover {
-    animation: shake 0.5s ease;
-    animation-fill-mode: both;
-
+    &:hover {
+        animation: shake 0.5s ease;
+        animation-fill-mode: both;
+    }
 }
 
 @keyframes sladeIn {
@@ -45,6 +45,7 @@
     }
 }
 
+
 @keyframes shake {
     0% {}
 
@@ -54,7 +55,6 @@
 
     40% {
         transform: translateX(2em);
-
     }
 
     60% {
@@ -70,8 +70,8 @@
     }
 }
 
-@keyframes around {
 
+@keyframes around {
     0% {
         top: 0;
         left: 0;
