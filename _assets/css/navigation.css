@@ -22,13 +22,16 @@
     display: block;
     padding: 0.5em 1.5em;
     border-radius: 0.3em;
-    background: #CFDF98;
+    background: #435F49;
+    color: #DEEABC;
 }
 
 .site-nav li.selected > a,
 .site-nav a:hover {
-    background: var(--color-link-default);
-    color: var(--color-body-bgrd);
+    /* background: var(--color-link-default);
+    color: var(--color-body-bgrd); */
+    background: var(--color-body-bgrd);
+    color: var(--color-link-default);
 }
 
 .site-nav a i.fas:before {

@@ -8,34 +8,36 @@
     border-radius: 2%;
 }
 
-h1,
-h2,
-h3 {
+.big-img h1,
+.big-img h2 {
     text-align: left;
 }
 
 .history-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    margin: 1em;
+    margin: 1em 1em 1em 0;
     padding: 2em 0;
 }
 
-ul {
+ul.h-content {
     display: flex;
+    /* justify-items: space-between; */
     justify-content: space-between;
-    padding: 0;
+    padding: 0.5em;
 }
 
-div>ul>li {
+.h-content li {
     width: 30%;
-    padding: 2em;
-    background: #CFDF98;
+    padding: 2em 1em 1em 1em;
+    background: #435F49;
+    color: #DEEABC;
     border-radius: 3%;
+    justify-content: space-between;
 }
 
-div>ul>li>h4 {
+.h-content h4 {
     text-align: center;
     padding-bottom: 0.5em;
 }

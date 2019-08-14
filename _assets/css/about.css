@@ -23,14 +23,14 @@ li.text {
     background: #CFDF98;
     border-radius: 2%;
 }
-
-
-h3,h4 {
-    margin: 0.3em 0.2em 0.5em 0.5em;
+.fests h3,.fests h4{
+    text-align: center;
 }
+
 h3.fruitiness{
     margin: 0.5em 0;
 }
+
 li {
     list-style: none outside;
 }
