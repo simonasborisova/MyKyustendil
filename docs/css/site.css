@@ -872,12 +872,14 @@ ul > li {
   display: block; }
 
 .location h4 {
-  /* font-family: 'Open Sans', sans-serif; */
   text-align: center;
   align-items: center;
   color: var(--color-link-default);
   border-bottom: 0.2px solid var(--color-link-default);
   font-size: 1.5em; }
+
+.location a {
+  text-decoration: underline; }
 
 .location p {
   align-items: center; }
@@ -894,7 +896,8 @@ ul > li {
 .form h4 {
   text-align: center; }
 
-textarea, input {
+textarea,
+input {
   background: #E6E6E6;
   border: none;
   outline: none;
@@ -919,7 +922,8 @@ textarea {
     font-weight: 900;
     color: grey; }
 
-.last-name:before, .first-name:before {
+.last-name:before,
+.first-name:before {
   content: '\f007'; }
 
 .number:before {
